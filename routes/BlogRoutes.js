@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const BlogPost = require('../Models/BlogPost.js');
+const BlogPost = require('../models/BlogPost.js');
 
 // Middlewares
 const authenticateToken = require('../middleware/auth');
